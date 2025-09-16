@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply overflow-hidden w-full h-72 relative rounded-t-lg shadow-lg;
+}
+
+.badge {
+  @apply absolute top-0 bg-black rounded-md p-2 m-1 bg-opacity-75 text-sm text-yellow-400 font-semibold;
+}
+
+.btn {
+  @apply cursor-pointer border-2 rounded-sm border-red-500 p-1 mt-2;
+}
+.btn:hover {
+  @apply text-white bg-red-600  transition-all cursor-pointer  duration-300;
+}
+
+.hover:hover {
+  @apply bg-gray-500 opacity-25 px-2 border-r-2 border-gray-50 flex transition-all duration-300;
+}
